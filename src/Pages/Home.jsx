@@ -11,7 +11,7 @@ const Home = () => {
     <Box sx={
       {
         
-        width: "70%",
+        width: "90%",
         // display: "flex",
         // flexDirection: "column",
         // alignItems: "center",
