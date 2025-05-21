@@ -7,15 +7,15 @@ function AboutPage() {
   return (
     <Box
       sx={{
-        width: "70%",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
         margin: "0 auto",
+        padding: 5,
       }}
     >
-      <AboutMeMain />
+      <AboutMeMain isHome={false} />
       <ContactSectione />
       {/* <ContactInfo /> */}
     </Box>

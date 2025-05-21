@@ -12,6 +12,7 @@ function AboutMeMain() {
         px: 3,
         py: 10,
         display: 'flex',
+        padding:5,
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',

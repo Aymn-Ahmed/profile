@@ -33,7 +33,7 @@ function App() {
         <Router>
           <NavBar />
           <ContactFloatingButton />
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           {/* محتوى الصفحات مع هامش علوي لمنع تداخل النافبار */}
           <Box component="main" sx={{ pt: 8 }}>
             <AnimatePresence mode="wait">

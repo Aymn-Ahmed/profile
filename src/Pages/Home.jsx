@@ -8,24 +8,22 @@ import { Box } from "@mui/material";
 import SkillsMain from "../Combonents/SkillsSection/SkillMatrix";
 const Home = () => {
   return (
-    <Box sx={
-      {
-        
-        width: "90%",
+    <Box
+      sx={{
+        width: "100%",
         // display: "flex",
         // flexDirection: "column",
         // alignItems: "center",
         // justifyContent: "center",
         margin: "0 auto",
-      }
-    }>
+      }}
+    >
       <HeroSection />
 
-      <AboutMeMain />
+      <AboutMeMain isHome />
       <ProjectMain />
       <SkillsMain />
       <ContactSection />
-      
     </Box>
   );
 };
